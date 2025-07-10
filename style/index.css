@@ -67,9 +67,53 @@ header{
     background-repeat: no-repeat;
     background-position: center right;
     padding: 150px 30px 100px 120px;
-    display:c ;
+    display: block ;
     align-items: center;
     justify-content:space-between;
     gap: 158px;
     border-radius: 4px;
+    margin-left: 200px;
+    margin-top: 0px;
+}
+/* Action section */
+.action-head{
+    font-family: Raleway;
+    font-size: 42px;
+    font-style: bold;
+    color: #252432;
+    width: 517px;
+    height: 49px;
+}
+.action{
+    width: 517px;
+    height: 203px;
+}
+.action-para{
+    font-family: Raleway;
+    font-size: 24px;
+    font-style:Regular;
+    color: #252432;
+    width:517px ;
+    height:60px ;
+
+}
+.binary{
+    height:48px;
+    width: 229px;
+    gap:10px;
+    padding: 12px 36px ;
+    border-radius: 10px;
+    align-items: center;
+
+}
+.photo{
+     border-radius: 48px;
+     width: 403px;
+     height: 328px;
+     margin-right: 220px;
+}
+.action-section{
+    display: flex;
+    margin-left: 230px;
+    justify-content: space-between;
 }
