@@ -1,3 +1,6 @@
+
+
+
 /* Nav style */
 nav{
     display: flex;
@@ -72,7 +75,7 @@ header{
     justify-content:space-between;
     gap: 158px;
     border-radius: 4px;
-    margin-left: 200px;
+    margin-left:200px;
     margin-top: 0px;
 }
 /* Action section */
@@ -140,17 +143,21 @@ header{
     font-family: Raleway;
     font-weight: 700;
     font-size: 38px;
-    margin-bottom: 100px;
     color: #252432;
     text-align: center;
     justify-content: center;
- }
+    /* margin-bottom: 40px; */
+    padding-bottom: 40px;
+}
  .user-info{
     height: 206px; ;
     width: 856px;
     align-items: center;
     margin-left: 50px;
     text-align: center;
+    margin-bottom: 300px;
+    justify-content: space-around;
+    padding-bottom: 10px;
   
  }
   .users {
@@ -170,9 +177,8 @@ header{
     box-sizing: border-box;
     margin-top: 0 auto ;
   }
-  .user-item{
-    flex: 1;
-  }
+
+  
 .user-data{
     font-family: inter;
     font-size: 80px;
@@ -186,11 +192,45 @@ header{
 .user-data-p1{
     font-family: inter;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 10px;
     color: #000000;
     margin: 6px 0 0 0;
   }
+  /* review-card style */
+  .review{
+    margin-top: 200px;
+  }
 
+
+ 
+  .review-containner{
+    text-align: center;
+    
+  }
+  .review-card-containner{
+    display: flex;
+    gap: 24px;
+    margin-left: 250px;
+    padding: 20px;
+/* width: 365px; */
+   }
+  .review-card{
+    width: 300px;
+    height: 245px;
+    border: 2px solid #f0eded;
+    border-radius: 14px ;
+    padding: 24px 24px;
+  }
+  .review-card img{
+ width: 20px;
+  }
+  .review-card h4{
+    font-family: raleway;
+    font-weight: 600;
+    }
+ .review-card:hover {
+background-color: #c7c5f2;
+ }
 
 
 
