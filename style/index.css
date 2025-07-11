@@ -5,7 +5,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 0px 30px;
+   
     
 }
 h3{
@@ -19,21 +19,28 @@ h3{
     font-family: Raleway;
     color: white;
     font-size: 16px;
+    width: 100px;
+    height: 40px;
     background-color: #4E47FF;
-    font-weight:bold ;
-    padding: 12px 36px;
+    font-weight:700 ;
+    /* padding: 12px 36px; */
     display: inline-block;
     border: none;
     border-radius: 5px;
-    background-size:48px 80px;
+    /* background-size:48px 80px; */
    cursor: pointer;
+   margin: 30px 30px;
     /* text-align: center; */
     
+}
+.btn-primary:hover{
+    background-color: red;
 }
 
 
 .purple{
     color: #4E47FF;
+    margin: 30px 30px;
 }
 
 /* banner styles */
@@ -45,14 +52,16 @@ h3{
     text-align: center;
     display: block;
     width: 905px;
+    margin-top: 150px;
   
 }
 .secondary{
-    background: height 48px width 174px;
+   height: 40px;
+   width:150px;
      text-align: center;
     gap: 16px;
     position: absolute;
-    margin-top: 250px;
+    margin-top: 350px;
     margin-bottom: 10px;
 }
 .banner-containner{
@@ -90,6 +99,7 @@ header{
 .action{
     width: 517px;
     height: 203px;
+    
 }
 .action-para{
     font-family: Raleway;
@@ -98,6 +108,7 @@ header{
     color: #252432;
     width:517px ;
     height:60px ;
+    align-items: normal;
 
 }
 .binary{
@@ -106,7 +117,7 @@ header{
     gap:10px;
     padding: 12px 36px ;
     border-radius: 10px;
-    align-items: center;
+   margin-top: 20px;
 
 }
 .photo{
@@ -126,7 +137,7 @@ header{
 .user-containner {
     background-color: #d6dbff;
     border-radius: 24px;
-    padding: 80px 50px;
+    padding: 60px 50px;
     text-align: center;
     max-width: 1140px;
     height: 306px;
@@ -139,7 +150,7 @@ header{
    justify-content: center;
    background-position: center;
 }
- .user-content{
+ .user-info h2{
     font-family: Raleway;
     font-weight: 700;
     font-size: 38px;
@@ -148,6 +159,7 @@ header{
     justify-content: center;
     /* margin-bottom: 40px; */
     padding-bottom: 40px;
+    margin-top: 0px;
 }
  .user-info{
     height: 206px; ;
@@ -168,6 +180,7 @@ header{
     width: 856px;
     margin-bottom: 700px;
    display: flex;
+   padding: 30px 30px ;
      }
   .users div{
     display: flex;
@@ -177,7 +190,9 @@ header{
     box-sizing: border-box;
     margin-top: 0 auto ;
   }
-
+.user-item{
+    justify-content: block;
+}
   
 .user-data{
     font-family: inter;
@@ -232,6 +247,48 @@ header{
 background-color: #c7c5f2;
  }
 
+ /* last section Form */
+ .form-section h1{
+    font-family: raleway;
+    width: 528px;
+    height: 232px;
+    font-weight: 700;
+    font-size: 70px;
+   
+ }
+ .form{
+    padding: 200px 300px;
+     }
+ .form-section{
+    display: flex;
+    gap: 300px;
+ }
+ .form-atr{
+    font-family: inter;
+    font-size: 15px;
+        width:400px;
+        height: 30px;
+        background-color: white;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        display: block;
+        padding: 20px 20px ;
+    }
+    .comment-box{
+     height:70px;
+     margin-bottom: 10px;
+    }
+.form-btn{
+    height: 70px;
+    width: 445px;
+    border-radius: 5px;
+    color: white;
+    background-color: #4E47FF;
+
+}
+.form-btn:hover{
+   background-color:  red;
+}
 
 
 
